@@ -67,7 +67,7 @@ y = election["result"]
 
 ################################### - Model Bulding - #####################################
 
-# We can use either one step form below two to train our model
+# We can use either one step form below two for train our model.
 
 # 1 - By Statemodel
 model1 = smf.logit('y ~ amountspend + popularityrank', data = X).fit()
